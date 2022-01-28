@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc -b -v",
     "clean": "tsc -b --clean",
-    "package": "npx esbuild lib/zoo/index.js --bundle --platform=node --outfile=out.js"
+    "package": "npm run package --workspaces --if-present"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,12 @@
   "dependencies": {
     "typescript": "^3.5.3",
     "@types/uuid": "8.3.4",
-    "uuid": "8.3.2",
     "esbuild": "0.14.14"
-  }
+  },
+  "workspaces": [
+    "packages/animals",
+    "packages/core",
+    "packages/zoo",
+    "packages/zoo2"
+  ]
 }

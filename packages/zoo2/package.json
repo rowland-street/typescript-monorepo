@@ -1,0 +1,11 @@
+{
+  "name": "zoo2",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "uuid": "8.3.2"
+  },
+  "scripts": {
+    "package": "npx esbuild ../../lib/zoo2/index.js --bundle --platform=node --outfile=../../lib/zoo2-out.js"
+  }
+}

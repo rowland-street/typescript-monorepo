@@ -1,0 +1,13 @@
+{
+  "name": "zoo",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "uuid": "8.3.2",
+    "lodash": "4.17.21",
+    "@types/lodash": "4.14.178"
+  },
+  "scripts": {
+    "package": "npx esbuild ../../lib/zoo/index.js --bundle --platform=node --outfile=../../lib/zoo-out.js"
+  }
+}
