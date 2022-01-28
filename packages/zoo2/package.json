@@ -6,6 +6,6 @@
     "uuid": "8.3.2"
   },
   "scripts": {
-    "package": "npx esbuild ../../lib/zoo2/index.js --bundle --platform=node --outfile=../../lib/zoo2-out.js"
+    "package": "npx esbuild ../../dist/zoo2/index.js --bundle --platform=node --outfile=../../dist/zoo2-out.js"
   }
 }

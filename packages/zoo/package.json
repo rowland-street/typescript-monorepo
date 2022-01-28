@@ -8,6 +8,6 @@
     "@types/lodash": "4.14.178"
   },
   "scripts": {
-    "package": "npx esbuild ../../lib/zoo/index.js --bundle --platform=node --outfile=../../lib/zoo-out.js"
+    "package": "npx esbuild ../../dist/zoo/index.js --bundle --platform=node --outfile=../../dist/zoo-out.js"
   }
 }
